@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DogCode</title>
+
+    <!--Icones-->
+    <link rel="stylesheet" href="./icon/style.css" />
+    <!--Styles-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./glossary.css" />
+    <!--FOnts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,500&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--MENU-->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#home">Dog<span>Code</span>.</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#passos">Passo a Passo</a></li>
+            <li><a class="title" href="#">Outro</a></li>
+            <li><a class="title" href="#">Outro</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+    <!--DICIONARIO-->
+    <section class="section" id="glossary">
+      <div class="container grid">
+        <div class="list">
+          <ul id="itemmenu">
+            <h2 class="title">Dicionário</h2>
+            <li id="types">
+              <a class="subtitle" href="#">Tipos de Dados</a>
+            </li>
+            <li id="functions"><a class="subtitle" href="#">Funções</a></li>
+            <li id="loops"><a class="subtitle" href="#">Loops</a></li>
+            <li id="variaveis">
+              <a class="subtitle" href="#">Variáveis</a>
+            </li>
+            <li id="logicos">
+              <a class="subtitle" href="#">Operadores lógicos</a>
+            </li>
+            <li id="matematicos">
+              <a class="subtitle" href="#">Operadores matemáticos</a>
+            </li>
+            <li id="atribuicao">
+              <a class="subtitle" href="#">Operadores de Atribuição</a>
+            </li>
+            <li id="comparacao">
+              <a class="subtitle" href="#">Operadores de comparação</a>
+            </li>
+          </ul>
+        </div>
+        <div class="meanings" id="all">
+          <div id="types">
+            <h2 class="title">Tipos de Dados</h2>
+            <div class="meaning">
+              <p>
+                Cada linguagem de programação tem seus próprios tipos de dados
+                integrados. Os tipos de dados em JavaScript incluem números,
+                strings, booleanos, arrays e objetos.
+              </p>
+            </div>
+            <div class="meaning">
+              <h2>Número</h2>
+              <br />
+              <p>
+                Em JavaScript, os números podem ser inteiros (como 10) ou conter
+                um decimal (como 10.5).
+                <details>
+                  <p>EXEMPLO:</p>
+                  <br />
+                  <p id="example">
+                    var numeroDeAulas = 10 ;<br />
+                    var temperatura = 74 . 6 ;
+                  </p>
+                  <p>As variáveis <span>numeroDeAulas</span> e <span>temperatura</span> armazenam números.</p>
+                </details>
+              </p>
+            </div>
+            <div class="meaning">
+              <h2>Strings</h2>
+              <br />
+              <p>
+                Strings armazenam texto, como letras, palavras, símbolos e espaços. Strings são cercadas por aspas.
+                <details>
+                  <p>EXEMPLO:</p>
+                  <br />
+                  <p id="example">
+                    var mensagem =  'Olá mundo' ;
+                  </p>
+                  <p>A variávei <span>mensagem</span> armazena a string 'Olá mundo'.</p>
+                </details>
+              </p>
+            </div>
+            <div class="meaning">
+              <h2>boleano</h2>
+              <br />
+              <p>
+                Um booleano armazena o valor true ou false.
+                <details>
+                  <p>EXEMPLO:</p>
+                  <br />
+                  <p id="example">
+                    var estudandoProgramacao =  true ;<br>var aprenderSemEstudar =  false ;
+                  </p>
+                  <p>É <span>verdade</span> que você está aprendendo programação, mas é <span>falso</span> que você aprende sem estudar.</p>
+                </details>
+              </p>
+            </div>
+          </div>
+          <div id="functions">
+            <h2 class="title">Funções</h2>
+            <div class="meaning">
+              <p>
+                A function is a reusable block of code that tells a computer to
+                do a specific thing. Functions usually take information, process
+                it, and return a result.
+              </p>
+            </div>
+          </div>
+          <div id="loops">
+            <h2 class="title">Loops</h2>
+            <div class="meaning">
+              <p>
+                Loops are used to run the same block of code multiple times.
+                There are many different types of loops in JavaScript.
+              </p>
+            </div>
+          </div>
+          <div id="teste">
+            <h2 class="title">Testando</h2>
+            <div class="meaning">
+              <p>
+                Loops are used to run the same block of code multiple times.
+                There are many different types of loops in JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--RODAPÉ -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Dog<span>Code</span>.</a>
+          <p>@2021 Projeto de Sistemas</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+        <div class="menuFooter grid">
+          <ul>
+            <li>Termos de Serviço</li>
+            <li>Perguntas frequentes</li>
+            <li>Política de privacidade</li>
+          </ul>
+        </div>
+        <div class="social grid">
+          <a target="_blank" href="#"><i class="icon-instagram"></i></a
+          ><a target="_blank" href="#"><i class="icon-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./glossary.js"></script>
+  </body>
+</html>
